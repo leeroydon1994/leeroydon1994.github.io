@@ -6,6 +6,8 @@ The whole site is in responsive design. The elements automatically change their 
 
 Each main part contains id with prefix 'nav-'.
 
+Favicon is made for this website, from https://www.favicon.cc/.
+
 --Cover Section, Navbar--
 
 This website consists of four main parts. The one on the top is the Cover section, which contains a jumbotron, with all elements horizontally centered. 

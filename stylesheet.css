@@ -211,6 +211,10 @@ footer {
   padding-bottom: 4rem;
 }
 
+.container-icon {
+  margin-bottom: 1.5rem;
+}
+
 
 .container-icon > .far, .container-icon > .fas, .container-icon > .fab {
   font-size: 2rem;
