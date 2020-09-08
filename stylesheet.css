@@ -1,0 +1,219 @@
+/* Overall */
+
+h1 {
+  padding: 2rem 0;
+}
+
+/* For Scrollpsy */
+body {
+  position: relative;
+}
+
+/* navbar */
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.navbar {
+  padding-right: 1rem;
+  /* link to JQuery scroll effect */
+  transition: background-color 0.5s ease;
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition:background-color 0.5s ease;
+  -o-transition:background-color 0.5s ease;
+  visibility: hidden;
+}
+
+.nav-link {
+  font-family: pt-sans-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.navbar-icon {
+  margin-left: 0.25rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  padding: 0 0.3rem;
+  vertical-align: -20%;
+  margin: 0 0.35rem;
+
+}
+
+/* Landing page */
+
+.cover-wrapper {
+  background-image:url('IMG_6899.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100vh;
+  /* For the JQuery scroll effect */
+  transition: background-image 2s ease; 
+  -webkit-transition: background-image 2s ease; 
+  -moz-transition:background-image 2s ease; 
+  -o-transition:background-image 2s ease; 
+}
+
+.jumbotron {
+  margin-bottom: 16.5rem;
+  /* For the fade-in effect */
+  visibility: hidden;
+  animation-duration: 2s;
+
+}
+
+.container .display-2 {
+  letter-spacing: 1rem;
+  font-family: bree,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #535953;
+}
+
+.lead {
+  letter-spacing: .25rem;
+  color: #535953;
+}
+
+.jumbotron-btn {
+  color: #535953;
+  font-size: 3rem;
+}
+
+.jumbotron-btn:hover {
+  color: #373C38;
+  transition: 0.5s;
+}
+
+/* 'About me' section */
+
+.intro-wrapper {
+  background-color: #DAC9A6;
+}
+
+.bootcamp-wrapper {
+  background-color: #FCFAF2;
+}
+
+.thought-wrapper {
+  background-color: #91B493;
+}
+
+
+.intro-wrapper, .bootcamp-wrapper, .thought-wrapper {
+  padding: 6rem 0;
+}
+
+/* For the scroll events, triggering fade-in effect */
+.intro-box, .bootcamp-box, .thought-box {
+  visibility: hidden;
+  animation-duration: 1s;
+}
+
+.self-portrait {
+  min-width: 60%;
+  max-width: 65%;
+  padding: 0 1.5rem;
+}
+
+.intro-text, .bootcamp-text, .thought-text {
+max-width: 100%;
+}
+
+.bootcamp, .thought {
+  max-width: 80%;
+  padding: 0 1.5rem;
+}
+
+
+
+/* 'Hobby' section */
+
+.hobby-wrapper {
+  background-color: #434343;
+  padding-bottom: .2rem;
+  padding-top: 1rem;
+}
+
+.drawing, .photography {
+  max-height: 50vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hobby-wrapper .hobby-1 {
+  margin-bottom: .2rem;
+}
+
+/* Texts on images of "Hobbies" */
+
+.hobby-1 {
+  position: relative;
+}
+
+.hobby-1 h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   
+} 
+
+.hobby-2 {
+  position: relative;
+}
+
+.hobby-2 h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+} 
+
+/* Album */
+
+.album-wrapper {
+  background-color: #1d1d1d;
+  padding-top: 1rem;
+}
+
+.album-image {
+  width:100%;
+  padding: 0;
+}
+
+.carousel .carousel-item {
+  max-height: 80vh;
+  width: 100%;
+  background-color: #1d1d1d;
+}
+
+.carousel .carousel-item img {
+  max-height: 80vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* footer */
+
+footer {
+  padding: 6rem 1rem 2rem;
+  background-color: #1d1d1d;
+}
+
+.container-footer {
+  padding-bottom: 4rem;
+}
+
+
+.container-icon > .far, .container-icon > .fas, .container-icon > .fab {
+  font-size: 2rem;
+  padding: 0 .3rem;
+  vertical-align: -20%;
+}
