@@ -69,6 +69,7 @@ Besdies, the background color of the navbar changes from transparent to dark bla
     })
 ```
 
+The color of the navbar link changes according to the scrolling location by default, and transition effect is added for beautification.
 
 Transition effects of the navbar and the background images are made by CSS lines. Using CSS is much easier to tackle (-webkit-/-moz/-o- prefixes are also used for compatability of different browsers).
 
