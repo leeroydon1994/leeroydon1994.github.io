@@ -67,7 +67,7 @@ $(document).ready(function() {
         interval: 10000
       })
 
-    // Automatic update of yhe year in the footer
+    // Automatic update of the year in the footer
     let year = new Date().getFullYear();
     $(".year").text(`${year}`);
 })

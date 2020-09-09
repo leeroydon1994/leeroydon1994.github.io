@@ -29,6 +29,7 @@ body {
   font-family: pt-sans-pro, sans-serif;
   font-weight: 300;
   font-style: normal;
+  transition: color 0.25s ease;
 }
 
 .navbar-icon {
