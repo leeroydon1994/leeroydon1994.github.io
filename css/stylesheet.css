@@ -7,6 +7,7 @@ h1 {
 /* For Scrollpsy */
 body {
   position: relative;
+  overflow-x: hidden;
 }
 
 /* navbar */
@@ -20,8 +21,8 @@ body {
   /* link to JQuery scroll effect */
   transition: background-color 0.5s ease;
   -webkit-transition: background-color 0.5s ease;
-  -moz-transition:background-color 0.5s ease;
-  -o-transition:background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
   visibility: hidden;
 }
 
@@ -41,23 +42,30 @@ body {
   padding: 0 0.3rem;
   vertical-align: -20%;
   margin: 0 0.35rem;
-
 }
 
 /* Landing page */
 
 .cover-wrapper {
-  background-image:url('IMG_6899.jpg');
+  background-image: url("../assets/IMG_6899.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
   height: 100vh;
   /* For the JQuery scroll effect */
-  transition: background-image 2s ease; 
-  -webkit-transition: background-image 2s ease; 
-  -moz-transition:background-image 2s ease; 
-  -o-transition:background-image 2s ease; 
+  transition: background-image 2s ease;
+  -webkit-transition: background-image 2s ease;
+  -moz-transition: background-image 2s ease;
+  -o-transition: background-image 2s ease;
+}
+
+.overlay {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.1;
+  position: absolute;
 }
 
 .jumbotron {
@@ -65,53 +73,55 @@ body {
   /* For the fade-in effect */
   visibility: hidden;
   animation-duration: 2s;
-
 }
 
 .container .display-2 {
   letter-spacing: 1rem;
-  font-family: bree,sans-serif;
+  font-family: bree, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #535953;
+  color: #fcfaf2;
 }
 
 .lead {
-  letter-spacing: .25rem;
-  color: #535953;
+  letter-spacing: 0.25rem;
+  color: #fcfaf2;
 }
 
 .jumbotron-btn {
-  color: #535953;
+  color: #fcfaf2;
   font-size: 3rem;
 }
 
 .jumbotron-btn:hover {
-  color: #373C38;
+  color: #bdc0ba;
   transition: 0.5s;
 }
 
 /* 'About me' section */
 
 .intro-wrapper {
-  background-color: #DAC9A6;
+  background-color: #dac9a6;
 }
 
 .bootcamp-wrapper {
-  background-color: #FCFAF2;
+  background-color: #fcfaf2;
 }
 
 .thought-wrapper {
-  background-color: #91B493;
+  background-color: #91b493;
 }
 
-
-.intro-wrapper, .bootcamp-wrapper, .thought-wrapper {
+.intro-wrapper,
+.bootcamp-wrapper,
+.thought-wrapper {
   padding: 6rem 0;
 }
 
 /* For the scroll events, triggering fade-in effect */
-.intro-box, .bootcamp-box, .thought-box {
+.intro-box,
+.bootcamp-box,
+.thought-box {
   visibility: hidden;
   animation-duration: 1s;
 }
@@ -122,33 +132,35 @@ body {
   padding: 0 1.5rem;
 }
 
-.intro-text, .bootcamp-text, .thought-text {
-max-width: 100%;
+.intro-text,
+.bootcamp-text,
+.thought-text {
+  max-width: 100%;
 }
 
-.bootcamp, .thought {
+.bootcamp,
+.thought {
   max-width: 80%;
   padding: 0 1.5rem;
 }
-
-
 
 /* 'Hobby' section */
 
 .hobby-wrapper {
   background-color: #434343;
-  padding-bottom: .2rem;
+  padding-bottom: 0.2rem;
   padding-top: 1rem;
 }
 
-.drawing, .photography {
+.drawing,
+.photography {
   max-height: 50vh;
   width: 100%;
   object-fit: cover;
 }
 
 .hobby-wrapper .hobby-1 {
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
 }
 
 /* Texts on images of "Hobbies" */
@@ -162,8 +174,7 @@ max-width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-   
-} 
+}
 
 .hobby-2 {
   position: relative;
@@ -175,7 +186,7 @@ max-width: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-} 
+}
 
 /* Album */
 
@@ -185,7 +196,7 @@ max-width: 100%;
 }
 
 .album-image {
-  width:100%;
+  width: 100%;
   padding: 0;
 }
 
@@ -216,9 +227,10 @@ footer {
   margin-bottom: 1.5rem;
 }
 
-
-.container-icon > .far, .container-icon > .fas, .container-icon > .fab {
+.container-icon > .far,
+.container-icon > .fas,
+.container-icon > .fab {
   font-size: 2rem;
-  padding: 0 .3rem;
+  padding: 0 0.3rem;
   vertical-align: -20%;
 }

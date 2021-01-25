@@ -54,6 +54,8 @@ By default, when the width of the window decreases to 768 pixels or below, the l
 
 Besdies, the background color of the navbar changes from transparent to dark black with little opacity when scrolling down, and change back when scrolling back to the top. It is made by 'scroll()' method of JQuery. Two conditions are set, one is the situation when the page is scrolled by more than 50 pixels from the top, and one opposite.
 
+(But after fixing it, I found that I can actually use Animate on Scroll code. I am replacing the code for the coming version.🥺)
+
 ```Javascript
     // Change in background color of the navbar when scrolling
     $(document).scroll(function () { 
@@ -69,6 +71,7 @@ Besdies, the background color of the navbar changes from transparent to dark bla
     })
 ```
 
+The color of the navbar link changes according to the scrolling location by default, and transition effect is added for beautification.
 
 Transition effects of the navbar and the background images are made by CSS lines. Using CSS is much easier to tackle (-webkit-/-moz/-o- prefixes are also used for compatability of different browsers).
 
