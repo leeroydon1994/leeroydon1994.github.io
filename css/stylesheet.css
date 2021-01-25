@@ -75,11 +75,20 @@ body {
   animation-duration: 2s;
 }
 
+.overlay {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.1;
+  position: absolute;
+}
+
 .container .display-2 {
   letter-spacing: 1rem;
   font-family: bree, sans-serif;
   font-weight: 400;
   font-style: normal;
+<<<<<<< HEAD:css/stylesheet.css
   color: #fcfaf2;
 }
 
@@ -90,13 +99,30 @@ body {
 
 .jumbotron-btn {
   color: #fcfaf2;
+=======
+  color: #FCFAF2;
+}
+
+.lead {
+  letter-spacing: .25rem;
+  color: #FCFAF2;
+}
+
+.jumbotron-btn {
+  color: #FCFAF2;
+>>>>>>> 133163bad0fe4299d52993d59d8cd410c33074c8:stylesheet.css
   font-size: 3rem;
 }
 
 .jumbotron-btn:hover {
+<<<<<<< HEAD:css/stylesheet.css
   color: #bdc0ba;
+=======
+  color: #BDC0BA;
+>>>>>>> 133163bad0fe4299d52993d59d8cd410c33074c8:stylesheet.css
   transition: 0.5s;
 }
+
 
 /* 'About me' section */
 

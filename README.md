@@ -114,6 +114,8 @@ The About Section divdes into three minor parts, explaining my background, the r
 
 Fade-in animation is again applied in each minor part. Rather than setting the pixels of scrolling in order to trigger the animation, I adjust the thresold by using 'window.innerHeight', in order to assign the values with respective to the current height of the window. They come out one by one when scrolling down gently. As aforementioned, the 'visibility' propety is changed from 'hidden' to 'visible', to ensure they appear by fade-in effect.
 
+(But after fixing it, I found that I can actually use Animate on Scroll code. I am replacing the code for the coming version.🥺)
+
 ```Javascript
     // Trigger fade-in effect of Animate CSS when scrolling to specific y-coordinate in 'About' Section
     $(document).scroll(function () { 
