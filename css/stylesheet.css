@@ -135,8 +135,8 @@ body {
 }
 
 .self-portrait {
-  min-width: 60%;
-  max-width: 65%;
+  max-height: 50rem;
+  max-width: 100%;
   padding: 0 1.5rem;
 }
 
@@ -150,6 +150,10 @@ body {
 .thought {
   max-width: 80%;
   padding: 0 1.5rem;
+}
+
+.canvas-image {
+  border: 1px solid #1d1d1d;
 }
 
 /* 'Hobby' section */

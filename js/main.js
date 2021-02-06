@@ -40,10 +40,17 @@ $(document).ready(function () {
     if ($(this).scrollTop() > windowHeight * 0.5) {
       $(".intro-box").css("visibility", "visible").addClass("animate__animated animate__fadeInUp");
     }
-    if ($(this).scrollTop() > windowHeight * 0.6) {
-      $(".bootcamp-box").css("visibility", "visible").addClass("animate__animated animate__fadeInUp");
+
+    if ($(this).scrollTop() > windowHeight * 0.7) {
+      $(".bootcamp-box-1").css("visibility", "visible").addClass("animate__animated animate__fadeInUp");
     }
-    if ($(this).scrollTop() > windowHeight * 1.5) {
+    if ($(this).scrollTop() > windowHeight * 1) {
+      $(".bootcamp-box-2").css("visibility", "visible").addClass("animate__animated animate__fadeInUp");
+    }
+    if ($(this).scrollTop() > windowHeight * 1.3) {
+      $(".bootcamp-box-3").css("visibility", "visible").addClass("animate__animated animate__fadeInUp");
+    }
+    if ($(this).scrollTop() > windowHeight * 1.6) {
       $(".thought-box").css("visibility", "visible").addClass("animate__animated animate__fadeInUp");
     }
   });
