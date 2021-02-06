@@ -1,4 +1,4 @@
-# About-me site
+# Personal Website
 
 This About-me website mainly utilise HTML/CSS, Javascript/JQuery, Bootstrap, Animate CSS and Smooth Scroll plug-in, as well as Google Fonts, Adobe Fonts and Font Awesome.
 
