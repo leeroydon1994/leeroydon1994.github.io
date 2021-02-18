@@ -42,6 +42,8 @@ $(document).ready(function () {
     }
 
     if ($(this).scrollTop() > windowHeight * 0.7) {
+      $("body").css("background-color", "#fcfaf2");
+      $(".bootcamp-wrapper").css("visibility", "visible").addClass("animate__animated animate__fadeInUp");
       $(".bootcamp-box-1").css("visibility", "visible").addClass("animate__animated animate__fadeInUp");
     }
     if ($(this).scrollTop() > windowHeight * 1) {
@@ -51,6 +53,7 @@ $(document).ready(function () {
       $(".bootcamp-box-3").css("visibility", "visible").addClass("animate__animated animate__fadeInUp");
     }
     if ($(this).scrollTop() > windowHeight * 1.6) {
+      $(".thought-wrapper").css("visibility", "visible").addClass("animate__animated animate__fadeInUp");
       $(".thought-box").css("visibility", "visible").addClass("animate__animated animate__fadeInUp");
     }
   });

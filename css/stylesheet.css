@@ -8,6 +8,7 @@ h1 {
 body {
   position: relative;
   overflow-x: hidden;
+  background-color: #dac9a6;
 }
 
 /* navbar */
@@ -117,7 +118,7 @@ body {
 }
 
 .thought-wrapper {
-  background-color: #91b493;
+  background-color: #f1efe3;
 }
 
 .intro-wrapper,
